@@ -8,3 +8,5 @@ join order_details
 on order_details.pizza_id = pizzas.pizza_id
 group by pizza_types.category,pizza_types.name
 order by revenue desc limit 3;
+
+-- added comment
